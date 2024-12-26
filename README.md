@@ -1,6 +1,6 @@
 # Weather Dashboard
 
-## [ClickHere](https://gemini-clone-two-alpha.vercel.app/) to open the app
+## [ClickHere](https://weather-dashboard-gamma-seven.vercel.app/) to open the app
 
 ## Introduction
 
@@ -18,7 +18,7 @@ Responsive Ui to view recent weather data into charts and tabular form.
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/jarvis-exes/gemini-clone`
+1. Clone the repository: `git clone https://github.com/jarvis-exes/weather-dashboard`
 2. Install dependencies: `npm install`
 3. Run the development server: `npm run dev`
 
