@@ -4,86 +4,88 @@ import Price from "../components/Price";
 
 const products = [
   {
-    id: 1,
-    name: "Product 1",
-    description: "This is the description for Product 1.",
+    key: "product_1",
     price: 100,
-    image: "https://via.placeholder.com/400",
+    image:
+      "https://img.freepik.com/free-vector/modern-urban-adventure-suv-vehicle-illustration_1344-200.jpg?t=st=1740063400~exp=1740067000~hmac=e6b3d865d9f27d7bc0262cb42676f6dfc0f4544ce7adc3c7bdf88eba4bf1a84c&w=740",
     recommended: [
       {
-        id: 2,
-        name: "Recommended Product 1",
+        key: "recommended_product_1",
         price: 50,
-        image: "https://via.placeholder.com/200",
+        image:
+          "https://img.freepik.com/free-vector/sports-car-concept-illustration_114360-16457.jpg?t=st=1740063563~exp=1740067163~hmac=3eb8fb76152375108d2f7fc1741c0735251b2f8ae44db7e7368072f63f193e3e&w=740",
       },
       {
-        id: 3,
-        name: "Recommended Product 2",
+        key: "recommended_product_2",
         price: 75,
-        image: "https://via.placeholder.com/200",
+        image:
+          "https://img.freepik.com/free-vector/london-taxi-concept-illustration_114360-24754.jpg?t=st=1740063585~exp=1740067185~hmac=7dda98bd47cc2c6db760d04aa2e86ff90f636918c90041b684164df9f80a2d4d&w=740",
       },
     ],
   },
   {
-    id: 2,
-    name: "Product 2",
-    description: "This is the description for Product 2.",
+    key: "product_2",
     price: 150,
-    image: "https://via.placeholder.com/400",
+    image:
+      "https://img.freepik.com/free-vector/car-dealer-showing-new-red-sports-auto_3446-654.jpg?t=st=1740063469~exp=1740067069~hmac=b01f63f20ac63dcda4b7a48a1640b926989ce36339d3df8553e1ef5b04984556&w=740",
     recommended: [
       {
-        id: 4,
-        name: "Recommended Product 3",
+        key: "recommended_product_3",
         price: 60,
-        image: "https://via.placeholder.com/200",
+        image:
+          "https://img.freepik.com/free-vector/fast-car-concept-illustration_114360-3352.jpg?ga=GA1.1.1322922137.1740063337&semt=ais_hybrid",
       },
       {
-        id: 5,
-        name: "Recommended Product 4",
+        key: "recommended_product_4",
         price: 85,
-        image: "https://via.placeholder.com/200",
+        image:
+          "https://img.freepik.com/free-vector/modern-urban-adventure-suv-vehicle-illustration_1344-200.jpg?t=st=1740063400~exp=1740067000~hmac=e6b3d865d9f27d7bc0262cb42676f6dfc0f4544ce7adc3c7bdf88eba4bf1a84c&w=740",
       },
     ],
   },
 ];
 
 const Products = () => {
-  const { t } = useTranslation("products");
+  const { t } = useTranslation("common");
 
   return (
     <div className="p-6">
-      <h1 className="text-3xl font-bold mb-8">{t("products")}</h1>
+      <h1 className="text-3xl font-bold mb-8">{t("products.Products")}</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {products.map((product) => (
-          <div key={product.id} className="border p-4 rounded-lg shadow-md">
+          <div key={product.key} className="border p-4 rounded-lg shadow-md">
             <img
               src={product.image}
-              alt={product.name}
+              alt={t(`products.${product.key}.name`)}
               className="w-full h-48 object-cover rounded-lg mb-4"
             />
-            <h2 className="text-xl font-semibold">{product.name}</h2>
-            <p className="text-gray-600 mt-2">{product.description}</p>
+            <h2 className="text-xl font-semibold">
+              {t(`products.${product.key}.name`)}
+            </h2>
+            <p className="text-gray-600 mt-2">
+              {t(`products.${product.key}.description`)}
+            </p>
             <div className="mt-4 text-2xl font-bold">
               <Price value={product.price} />
             </div>
 
             <h3 className="mt-6 text-lg font-bold">
-              {t("recommended_products")}
+              {t("products.recommended_products")}
             </h3>
             <div className="grid grid-cols-1 gap-4 mt-2">
               {product.recommended.map((recommendedProduct) => (
                 <div
-                  key={recommendedProduct.id}
+                  key={recommendedProduct.key}
                   className="flex items-center gap-4"
                 >
                   <img
                     src={recommendedProduct.image}
-                    alt={recommendedProduct.name}
+                    alt={t(`products.${recommendedProduct.key}.name`)}
                     className="w-16 h-16 object-cover rounded-lg"
                   />
                   <div>
                     <h4 className="text-md font-semibold">
-                      {recommendedProduct.name}
+                      {t(`products.${recommendedProduct.key}.name`)}
                     </h4>
                     <Price value={recommendedProduct.price} />
                   </div>

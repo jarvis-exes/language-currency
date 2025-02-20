@@ -1,0 +1,31 @@
+{
+  "home": {
+    "welcome": "हमारी वेबसाइट पर आपका स्वागत है!",
+    "description": "यह होम पेज का विवरण है।",
+    "cta": "हमारे उत्पाद देखें"
+  },
+  "products": {
+    "Products": "उत्पाद",
+    "recommended_products": "अनुशंसित उत्पाद",
+    "product_1": {
+      "name": "उत्पाद 1",
+      "description": "यह उत्पाद 1 का विवरण है।"
+    },
+    "product_2": {
+      "name": "उत्पाद 2",
+      "description": "यह उत्पाद 2 का विवरण है।"
+    },
+    "recommended_product_1": {
+      "name": "अनुशंसित उत्पाद 1"
+    },
+    "recommended_product_2": {
+      "name": "अनुशंसित उत्पाद 2"
+    },
+    "recommended_product_3": {
+      "name": "अनुशंसित उत्पाद 3"
+    },
+    "recommended_product_4": {
+      "name": "अनुशंसित उत्पाद 4"
+    }
+  }
+}

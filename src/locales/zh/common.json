@@ -1,0 +1,31 @@
+{
+  "home": {
+    "welcome": "欢迎访问我们的网站！",
+    "description": "这是主页描述。",
+    "cta": "查看我们的产品"
+  },
+  "products": {
+    "Products": "产品",
+    "recommended_products": "推荐产品",
+    "product_1": {
+      "name": "产品 1",
+      "description": "这是产品 1 的描述。"
+    },
+    "product_2": {
+      "name": "产品 2",
+      "description": "这是产品 2 的描述。"
+    },
+    "recommended_product_1": {
+      "name": "推荐产品 1"
+    },
+    "recommended_product_2": {
+      "name": "推荐产品 2"
+    },
+    "recommended_product_3": {
+      "name": "推荐产品 3"
+    },
+    "recommended_product_4": {
+      "name": "推荐产品 4"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "home": {
+    "welcome": "우리 웹사이트에 오신 것을 환영합니다!",
+    "description": "이것은 홈페이지 설명입니다.",
+    "cta": "우리의 제품을 확인하세요"
+  },
+  "products": {
+    "Products": "제품",
+    "recommended_products": "추천 제품",
+    "product_1": {
+      "name": "제품 1",
+      "description": "이것은 제품 1의 설명입니다."
+    },
+    "product_2": {
+      "name": "제품 2",
+      "description": "이것은 제품 2의 설명입니다."
+    },
+    "recommended_product_1": {
+      "name": "추천 제품 1"
+    },
+    "recommended_product_2": {
+      "name": "추천 제품 2"
+    },
+    "recommended_product_3": {
+      "name": "추천 제품 3"
+    },
+    "recommended_product_4": {
+      "name": "추천 제품 4"
+    }
+  }
+}

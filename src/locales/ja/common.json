@@ -1,0 +1,31 @@
+{
+  "home": {
+    "welcome": "私たちのウェブサイトへようこそ！",
+    "description": "これはホームページの説明です。",
+    "cta": "私たちの製品をチェックしてください"
+  },
+  "products": {
+    "Products": "製品",
+    "recommended_products": "おすすめ製品",
+    "product_1": {
+      "name": "製品 1",
+      "description": "これは製品 1 の説明です。"
+    },
+    "product_2": {
+      "name": "製品 2",
+      "description": "これは製品 2 の説明です。"
+    },
+    "recommended_product_1": {
+      "name": "おすすめ製品 1"
+    },
+    "recommended_product_2": {
+      "name": "おすすめ製品 2"
+    },
+    "recommended_product_3": {
+      "name": "おすすめ製品 3"
+    },
+    "recommended_product_4": {
+      "name": "おすすめ製品 4"
+    }
+  }
+}

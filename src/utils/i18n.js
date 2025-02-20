@@ -2,36 +2,69 @@ import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
 
-// Import translation files
-import enTranslations from "../public/locales/en/common.json";
-import esTranslations from "../public/locales/es/common.json";
-import arTranslations from "../public/locales/ar/common.json";
+import enTranslations from "../locales/en/common.json";
+import esTranslations from "../locales/es/common.json";
+import arTranslations from "../locales/ar/common.json";
+import frTranslations from "../locales/fr/common.json";
+import deTranslations from "../locales/de/common.json";
+import zhTranslations from "../locales/zh/common.json";
+import jaTranslations from "../locales/ja/common.json";
+import ruTranslations from "../locales/ru/common.json";
+import ptTranslations from "../locales/pt/common.json";
+import hiTranslations from "../locales/hi/common.json";
+import koTranslations from "../locales/ko/common.json";
+import itTranslations from "../locales/it/common.json";
 
-// Configure i18next
 i18n
-  .use(LanguageDetector) // Detect user language
-  .use(initReactI18next) // Pass the i18n instance to react-i18next
+  .use(LanguageDetector)
+  .use(initReactI18next)
   .init({
-    fallbackLng: "en", // Fallback language
-    debug: process.env.NODE_ENV === "development", // Enable debug mode in development
+    fallbackLng: "en",
+    debug: process.env.NODE_ENV === "development",
     interpolation: {
-      escapeValue: false, // React already escapes values
+      escapeValue: false,
     },
     resources: {
       en: {
-        translation: enTranslations, // English translations
+        common: enTranslations,
       },
       es: {
-        translation: esTranslations, // Spanish translations
+        common: esTranslations,
       },
       ar: {
-        translation: arTranslations, // Arabic translations
+        common: arTranslations,
       },
-      // Add more languages here
+      fr: {
+        common: frTranslations,
+      },
+      de: {
+        common: deTranslations,
+      },
+      zh: {
+        common: zhTranslations,
+      },
+      ja: {
+        common: jaTranslations,
+      },
+      ru: {
+        common: ruTranslations,
+      },
+      pt: {
+        common: ptTranslations,
+      },
+      hi: {
+        common: hiTranslations,
+      },
+      ko: {
+        common: koTranslations,
+      },
+      it: {
+        common: itTranslations,
+      },
     },
     detection: {
-      order: ["localStorage", "navigator"], // Detect language from localStorage and browser
-      caches: ["localStorage"], // Cache the detected language in localStorage
+      order: ["localStorage", "navigator"],
+      caches: ["localStorage"],
     },
   });
 

@@ -1,0 +1,31 @@
+{
+  "home": {
+    "welcome": "مرحبًا بكم في موقعنا!",
+    "description": "هذا هو وصف الصفحة الرئيسية.",
+    "cta": "تحقق من منتجاتنا"
+  },
+  "products": {
+    "Products": "المنتجات",
+    "recommended_products": "المنتجات الموصى بها",
+    "product_1": {
+      "name": "المنتج 1",
+      "description": "هذا هو الوصف للمنتج 1."
+    },
+    "product_2": {
+      "name": "المنتج 2",
+      "description": "هذا هو الوصف للمنتج 2."
+    },
+    "recommended_product_1": {
+      "name": "المنتج الموصى به 1"
+    },
+    "recommended_product_2": {
+      "name": "المنتج الموصى به 2"
+    },
+    "recommended_product_3": {
+      "name": "المنتج الموصى به 3"
+    },
+    "recommended_product_4": {
+      "name": "المنتج الموصى به 4"
+    }
+  }
+}

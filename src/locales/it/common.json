@@ -1,0 +1,31 @@
+{
+  "home": {
+    "welcome": "Benvenuti sul nostro sito!",
+    "description": "Questa è la descrizione della pagina iniziale.",
+    "cta": "Scopri i nostri prodotti"
+  },
+  "products": {
+    "Products": "Prodotti",
+    "recommended_products": "Prodotti consigliati",
+    "product_1": {
+      "name": "Prodotto 1",
+      "description": "Questa è la descrizione del Prodotto 1."
+    },
+    "product_2": {
+      "name": "Prodotto 2",
+      "description": "Questa è la descrizione del Prodotto 2."
+    },
+    "recommended_product_1": {
+      "name": "Prodotto consigliato 1"
+    },
+    "recommended_product_2": {
+      "name": "Prodotto consigliato 2"
+    },
+    "recommended_product_3": {
+      "name": "Prodotto consigliato 3"
+    },
+    "recommended_product_4": {
+      "name": "Prodotto consigliato 4"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "home": {
+    "welcome": "Welcome to our website!",
+    "description": "This is the home page description.",
+    "cta": "Check out our products"
+  },
+  "products": {
+    "Products": "Products",
+    "recommended_products": "Recommended Products",
+    "product_1": {
+      "name": "Product 1",
+      "description": "This is the description for Product 1."
+    },
+    "product_2": {
+      "name": "Product 2",
+      "description": "This is the description for Product 2."
+    },
+    "recommended_product_1": {
+      "name": "Recommended Product 1"
+    },
+    "recommended_product_2": {
+      "name": "Recommended Product 2"
+    },
+    "recommended_product_3": {
+      "name": "Recommended Product 3"
+    },
+    "recommended_product_4": {
+      "name": "Recommended Product 4"
+    }
+  }
+}

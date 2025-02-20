@@ -1,0 +1,31 @@
+{
+  "home": {
+    "welcome": "Добро пожаловать на наш сайт!",
+    "description": "Это описание главной страницы.",
+    "cta": "Посмотрите наши продукты"
+  },
+  "products": {
+    "Products": "Продукты",
+    "recommended_products": "Рекомендуемые продукты",
+    "product_1": {
+      "name": "Продукт 1",
+      "description": "Это описание для Продукта 1."
+    },
+    "product_2": {
+      "name": "Продукт 2",
+      "description": "Это описание для Продукта 2."
+    },
+    "recommended_product_1": {
+      "name": "Рекомендуемый продукт 1"
+    },
+    "recommended_product_2": {
+      "name": "Рекомендуемый продукт 2"
+    },
+    "recommended_product_3": {
+      "name": "Рекомендуемый продукт 3"
+    },
+    "recommended_product_4": {
+      "name": "Рекомендуемый продукт 4"
+    }
+  }
+}

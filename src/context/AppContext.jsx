@@ -1,4 +1,5 @@
 import { createContext, useState, useEffect, useContext } from "react";
+import i18n from "../utils/i18n"; // Import the i18n instance
 
 // Create the context
 const AppContext = createContext();
@@ -30,6 +31,7 @@ export function AppProvider({ children }) {
     setLanguage(lang);
     setIsRTL(lang === "ar");
     localStorage.setItem("language", lang);
+    i18n.changeLanguage(lang); // Update the language in the i18n instance
   };
 
   const updateCurrency = (curr) => {
